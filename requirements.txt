@@ -1,0 +1,19 @@
+# Base dependencies
+uvicorn[standard]>=0.34.0
+fastapi>=0.115.7
+pydantic>=2.5.0
+httpx>=0.28.1
+python-multipart>=0.0.9
+pyjwt>=2.10.1
+cryptography>=44.0.0
+asyncpg>=0.30.0
+python-dotenv>=0.9.9
+# App dependencies
+openai
+beautifulsoup4
+requests
+squareup==43.2.0.20251016
+twilio==9.9.1
+resend==2.19.0
+email-validator==2.3.0
+stripe==14.1.0
